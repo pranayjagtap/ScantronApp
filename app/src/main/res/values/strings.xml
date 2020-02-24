@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MobileComputingProject</string>
+    <!-- Main page strings -->
+    <string name="create_rubric">Create Rubric</string>
+    <string name="edit_rubric">Edit Rubric</string>
+    <string name="grade_test">Grade Test</string>
+    <string name="edit_view_grades">View/Edit Grades</string>
+    <string name="title">Group 22 Scantron Grader</string>
+    <string name="title_activity_new_rubic_settings">New Rubric Options</string>
+    <string name="delete_rubric">Delete Rubric</string>
+    <string name="student_grades">Grades by Student</string>
+
+    <!-- Create rubric screen strings -->
+    <string name="NumofQs">Number of Questions</string>
+    <string name="RubricName">Rubric Name</string>
+    <string name="MultiAns">Multiple correct answers?</string>
+    <string name="PartialC">Partial Credit?</string>
+    <string name="title_activity_record">RecordActivity</string>
+
+
+</resources>

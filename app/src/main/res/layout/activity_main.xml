@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:gravity="top"
+        android:text="@string/title"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/create_rubric_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:text="@string/create_rubric"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/edit_rubric_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorAccent"
+        android:text="@string/edit_rubric"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/create_rubric_button" />
+
+    <Button
+        android:id="@+id/delete_rubric_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:text="@string/delete_rubric"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_rubric_button" />
+
+    <Button
+        android:id="@+id/grade_test_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorAccent"
+        android:text="@string/grade_test"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/delete_rubric_button" />
+
+    <Button
+        android:id="@+id/edit_view_grades_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:text="@string/edit_view_grades"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delete_rubric_button" />
+
+    <Button
+        android:id="@+id/student_grades_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorAccent"
+        android:text="@string/student_grades"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edit_view_grades_button" />
+
+    <Button
+        android:id="@+id/teststat"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:text="Test Stats"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_view_grades_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
